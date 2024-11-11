@@ -499,11 +499,11 @@ class Wp_AHC_Settings
             'framework_title' => WP_AHC_SHORT_NAME . ' ' . __('Settings', 'wp-ai-co-pilot'),
             'footer_text'     => sprintf(
                 __('Visit our plugin usage <a href="%s" target="_blank">documentation</a>', 'wp-ai-co-pilot'),
-                esc_url('https://boomdevs.com/docs/wp-ai-co-pilot/')
+                esc_url('https://wpmessiah.com/docs/wp-ai-co-pilot/')
             ),
             'footer_credit'   => sprintf(
                 __('A proud creation of <a href="%s" target="_blank">BOOM DEVS</a>', 'wp-ai-co-pilot'),
-                esc_url('https://boomdevs.com/')
+                esc_url('https://wpmessiah.com/')
             ),
             'menu_title' => __('WP AI Co-Pilot', 'wp-ai-co-pilot'),
             'menu_slug'  => 'aich-settings',
@@ -824,7 +824,7 @@ class Wp_AHC_Settings
                             <a class="button button-primary" target="_blank" href="https://wpaicopilot.com/">View all pro features</a>
                         </div>
                         <!-- <div class="right_btn">
-                            <a class="button button-secondary" target="_blank" href="https://boomdevs.com/products/wordpress-table-of-contents/">Get Pro Now</a>
+                            <a class="button button-secondary" target="_blank" href="https://wpmessiah.com/products/wordpress-table-of-contents/">Get Pro Now</a>
                         </div> -->
                     </div>
                 </div>

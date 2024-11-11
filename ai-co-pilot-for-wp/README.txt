@@ -1,9 +1,9 @@
 === WP AI CoPilot - AI content writer plugin, ChatGPT WordPress, GPT-3/4 , Ai assistance ===
-Contributors: boomdevs
+Contributors: boomdevs, wpmessiah
 Tags: ChatGPT, gpt, gpt-3, openai, copilot
 Requires at least: 5.0
-Tested up to: 6.5.3
-Stable tag: 1.2.6
+Tested up to: 6.6.2
+Stable tag: 1.2.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -122,11 +122,11 @@ Overall, WP AI Co-Pilot combines the power of AI, GPT-3 technology, and an intui
 
 [Get the Pro](https://wpaicopilot.com/)
 
-[Read Documentation](https://boomdevs.com/docs/wp-ai-co-pilot/)
+[Read Documentation](https://wpmessiah.com/docs/wp-ai-co-pilot/)
 
-[Submit Ticket](https://boomdevs.com/forums/forum/wp-ai-co-pilot/)
+[Submit Ticket](https://wpmessiah.com/forums/forum/wp-ai-co-pilot/)
 
-Made with ❣️ By [BoomDevs](https://boomdevs.com/)
+Made with ❣️ By [WP Messiah](https://wpmessiah.com/)
 
 **If you really like this plugin please don't forget to give us your rating. Thanks so much!** ⭐⭐⭐⭐⭐
 
@@ -154,16 +154,6 @@ To use the OpenAI API, you must agree to their terms of use. You can review the 
 
 == Service Privacy Policy ==
 The OpenAI API collects certain data from users in order to provide its services. To learn more about how your data is collected, used, and shared, please review the privacy policy at https://openai.com/privacy-policy/.
-
-## Privacy Policy
-
-AI Co-Pilot For WP collects some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
-
-BoomDevs **does not gather any data by default.** The tracking SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users.
-
-BoomDevs tracking SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
-
-Learn more about how [BoomDevs collects and uses this data](https://appsero.com/privacy-policy/).
 
 ### 🚀 Check out our Other Products 🚀
 
@@ -199,7 +189,7 @@ The answer is yes. Classic editor and new block editor are the compatible editor
 
 
 == Support ==
-If you have any questions, please email us at **[contact@boomdevs.com](mailto:contact@boomdevs.com)**
+If you have any questions, please email us at **[contact@wpmessiah.com](mailto:contact@wpmessiah.com)**
 
 == Screenshots ==
 
@@ -265,3 +255,6 @@ Fix: Bulk Post Generation: Automated Image Enhancement
 
 1.2.6 - 03 June 2024
 Added: integrated SureCart plugin support
+
+1.2.7 - 11 Novembar 2024
+Fix: Some minor issues

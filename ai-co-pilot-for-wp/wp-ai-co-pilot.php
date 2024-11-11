@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://boomdevs.com
+ * @link              https://wpmessiah.com
  * @since             1.0.0
  * @package           Wp_Ai_CoPilot
  *
  * @wordpress-plugin
  * Plugin Name:       WP AI CoPilot - AI content writer plugin, ChatGPT WordPress, GPT-3/4 , Ai assistance
- * Plugin URI:        https://boomdevs.com/product-category/wordpress/ai-co-pilot-for-wp
+ * Plugin URI:        https://wpaicopilot.com/
  * Description:       AI Content Writing Assistant – A one-click solution that generates high-quality, unique content by utilizing AI (GPT4 , OpenAI).
- * Version:           1.2.6
- * Author:            BoomDevs
- * Author URI:        https://boomdevs.com
+ * Version:           1.2.7
+ * Author:            WP Messiah
+ * Author URI:        https://wpmessiah.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wp-ai-co-pilot
@@ -46,7 +46,7 @@ define( 'WP_AHC_BASE_NAME', plugin_basename( __FILE__ ) );
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'AI_CONTENT_HELPER_VERSION', '1.2.6' );
+define( 'AI_CONTENT_HELPER_VERSION', '1.2.7' );
 
 
 require __DIR__ . '/vendor/autoload.php';

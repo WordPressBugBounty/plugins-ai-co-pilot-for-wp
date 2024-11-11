@@ -50,3 +50,6 @@ Fix: Bulk Post Generation: Automated Image Enhancement
 
 1.2.6 - 03 June 2024
 Added: integrated SureCart plugin support
+
+1.2.7 - 11 Novembar 2024
+Fix: Some minor issues
