@@ -1,5 +1,5 @@
 === WP AI CoPilot - AI content writer plugin, ChatGPT WordPress, GPT-3/4 , Ai assistance ===
-Contributors: boomdevs, wpmessiah
+Contributors: wpmessiah
 Tags: ChatGPT, gpt, gpt-3, openai, copilot
 Requires at least: 5.0
 Tested up to: 6.7
