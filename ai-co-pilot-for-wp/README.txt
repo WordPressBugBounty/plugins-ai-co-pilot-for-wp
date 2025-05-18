@@ -2,7 +2,7 @@
 Contributors: wpmessiah
 Tags: ChatGPT, gpt, gpt-3, openai, copilot
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: 1.2.7
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -122,9 +122,9 @@ Overall, WP AI Co-Pilot combines the power of AI, GPT-3 technology, and an intui
 
 [Get the Pro](https://wpaicopilot.com/)
 
-[Read Documentation](https://wpmessiah.com/docs/wp-ai-co-pilot/)
+[Read Documentation](https://docs.wpmessiah.com/docs/wp-ai-co-pilot/)
 
-[Submit Ticket](https://wpmessiah.com/forums/forum/wp-ai-co-pilot/)
+[Submit Ticket](https://support.wpmessiah.com/)
 
 Made with ❣️ By [WP Messiah](https://wpmessiah.com/)
 
