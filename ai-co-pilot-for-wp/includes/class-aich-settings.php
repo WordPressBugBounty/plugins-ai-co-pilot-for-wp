@@ -8,7 +8,7 @@ require_once(__DIR__ . '/class-ach-promptmanager.php');
  * @since      1.0.0
  * @package    Wp_AICH
  * @subpackage Wp_AICH/includes
- * @author     BOOM DEVS <contact@boomdevs.com>
+ * @author     BOOM DEVS <contact@wpmessiah.com>
  */
 class Wp_AHC_Settings
 {
@@ -483,6 +483,8 @@ class Wp_AHC_Settings
                 }
             }
             $this->ai_model_option = $models_arr;
+            $this->ai_model_option['gpt-4o'] = 'gpt-4o';
+            $this->ai_model_option['gpt-4o-mini'] = 'gpt-4o-mini';
         }
 
         // Insert premium prompts
@@ -616,6 +618,19 @@ class Wp_AHC_Settings
                     'title' => __('OpenAI API Key', 'wp-ai-co-pilot'),
                     'validate' => 'validate_api_key',
                     'desc' => "Get OpenAI key, please visit <a href='https://platform.openai.com/account/api-keys' target='_blank'>https://platform.openai.com/account/api-keys</a>",
+                ),
+                array(
+                    'id' => 'select_post_type',
+                    'type' => 'checkbox',
+                    'title' => __('Select post types', 'wp-ai-co-pilot'),
+                    'subtitle' => __('Select the post types which will have the WP AI CoPilot feature.', 'bwp-ai-co-pilot'),
+                    'options' => 'post_types',
+                    'class' => 'select_post',
+                    'query_args' => array(
+                        'orderby' => 'post_title',
+                        'order' => 'ASC',
+                    ),
+                    'default' => array('post', 'page'),
                 ),
                 ...$pixabay_settings,
                 ...$stability_ai_settings,

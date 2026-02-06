@@ -22,7 +22,7 @@
  * @since      1.0.0
  * @package    Ai_Content_Helper
  * @subpackage Ai_Content_Helper/includes
- * @author     BoomDevs <contact@boomdevs.com>
+ * @author     WP Messiah <contact@wpmessiah.com>
  */
 class Ai_Content_Helper_i18n {
 

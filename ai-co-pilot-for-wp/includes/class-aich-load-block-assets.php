@@ -20,6 +20,23 @@ class AICH_Load_Block_Assets
             require_once(__DIR__ . '/class-ach-promptmanager.php');
 
             $settings = Wp_AHC_Settings::get_settings();
+            
+            // Fix for Sensitive Information Exposure
+            // Remove sensitive API keys before sending settings to the frontend
+            $sensitive_keys = [
+                'api_key', 
+                'pixabay_api_key', 
+                'stability_ai_api_key', 
+                'pexels_api_key', 
+                'unsplash_api_key'
+            ];
+            
+            $filtered_settings = $settings;
+            foreach ($sensitive_keys as $key) {
+                if (isset($filtered_settings[$key])) {
+                    unset($filtered_settings[$key]);
+                }
+            }
 
             $new_prompt = [];
 
@@ -54,7 +71,7 @@ class AICH_Load_Block_Assets
                     'plugin_url' => plugin_dir_url(__DIR__),
                     'api_key_is_valid' => $open_ai_api_is_valid,
                     'all_prompts' => $promptsList,
-                    'aich_settings' => $settings,
+                    'aich_settings' => $filtered_settings,
                 )
             );
         }

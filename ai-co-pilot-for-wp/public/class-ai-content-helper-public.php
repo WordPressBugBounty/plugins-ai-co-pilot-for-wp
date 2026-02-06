@@ -18,7 +18,7 @@
  *
  * @package    Ai_Content_Helper
  * @subpackage Ai_Content_Helper/public
- * @author     BoomDevs <contact@boomdevs.com>
+ * @author     WP Messiah <contact@wpmessiah.com>
  */
 class Ai_Content_Helper_Public {
 

@@ -1,9 +1,9 @@
 === WP AI CoPilot - AI content writer plugin, ChatGPT WordPress, GPT-3/4 , Ai assistance ===
-Contributors: wpmessiah
+Contributors: boomdevs, wpmessiah
 Tags: ChatGPT, gpt, gpt-3, openai, copilot
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 1.2.7
+Tested up to: 6.9
+Stable tag: 1.2.8
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -122,9 +122,9 @@ Overall, WP AI Co-Pilot combines the power of AI, GPT-3 technology, and an intui
 
 [Get the Pro](https://wpaicopilot.com/)
 
-[Read Documentation](https://docs.wpmessiah.com/docs/wp-ai-co-pilot/)
+[Read Documentation](https://wpmessiah.com/docs/wp-ai-co-pilot/)
 
-[Submit Ticket](https://support.wpmessiah.com/)
+[Submit Ticket](https://wpmessiah.com/forums/forum/wp-ai-co-pilot/)
 
 Made with ❣️ By [WP Messiah](https://wpmessiah.com/)
 
@@ -258,3 +258,7 @@ Added: integrated SureCart plugin support
 
 1.2.7 - 11 Novembar 2024
 Fix: Some minor issues
+
+= 1.2.8 - 14 January 2026 =
+* Fix: Sensitive information exposure vulnerability
+* Fix: Minor logic update for asset loading

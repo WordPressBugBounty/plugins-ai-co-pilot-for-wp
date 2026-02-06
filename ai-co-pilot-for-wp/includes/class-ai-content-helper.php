@@ -11,7 +11,7 @@
  * @since      1.0.0
  * @package    Ai_Content_Helper
  * @subpackage Ai_Content_Helper/includes
- * @author     BoomDevs <contact@boomdevs.com>
+ * @author     WP Messiah <contact@wpmessiah.com>
  */
 class Ai_Content_Helper {
 
@@ -56,7 +56,7 @@ class Ai_Content_Helper {
 		if ( defined( 'AI_CONTENT_HELPER_VERSION' ) ) {
 			$this->version = AI_CONTENT_HELPER_VERSION;
 		} else {
-			$this->version = '1.2.6';
+			$this->version = '1.2.7';
 		}
 		$this->plugin_name = 'ai-content-helper';
 
